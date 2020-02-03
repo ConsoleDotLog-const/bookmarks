@@ -1,9 +1,14 @@
 <h2>About</h2>
 
 {{#each model as | bookmark |}}
-<article id={{bookmark.id}}>
-    <a target="_blank" href="{{bookmark.link}}">{{bookmark.title}}</a>
-    - {{bookmark.about}}
-</article>
 
+
+
+ <article id={{bookmark.id}}>
+        <a target="_blank" href="{{bookmark.link}} ">{{bookmark.title}}</a>
+        - {{bookmark.about}}
+    </article> 
+
+
+    {{!-- {{bookmark-listing }} --}}
 {{/each}}

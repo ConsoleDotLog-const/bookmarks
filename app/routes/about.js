@@ -5,7 +5,7 @@ let bookmarks = [
     id: 1,
     title: "Microsoft",
     link: "https://www.microsoft.com/",
-    about: "inrto about Microsoft"
+    about: "intro about Microsoft"
   },
   {
     id: 2,
